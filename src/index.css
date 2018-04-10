@@ -1,0 +1,117 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+    background-color: #bebebe;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.main-header {
+    background-color:crimson;
+    color: #fff;
+    overflow: hidden;
+    padding: 0.5rem;
+}
+
+.main-header h1 {
+    line-height: 1;
+    margin: 0;
+    font-weight: 400;
+    text-align: center;
+    
+}
+.main-header a {
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+    transition: all 0.7s;
+}
+.main-header a:hover {
+    color:crimson;
+    background: white;
+    text-decoration: none;
+}
+.main-content {
+    padding: 0.5rem;
+}
+.search-page {
+    text-align: center;
+}
+.search-page__input {
+    border: 1px solid black;
+    padding: 0.2em;
+    margin-right: 1em;
+    font-size: 20px;
+}
+.search-page__button {
+    border: 1px solid black;
+    background-color: #fff;
+    font-size: 20px;
+}
+.user-info {
+    display: flex;
+    flex-wrap: wrap;
+    background: #80808042;
+    border: 1px solid;
+    padding: 30px;
+}
+.user-info__avatar {
+    width: 120px;
+    height: 120px;
+    margin-right: 1em;
+    float: left;
+    border: 2px solid;
+    padding: 3px;
+}
+.user-info__text {
+    text-decoration: none;
+    flex: 1;
+    color: black;
+}
+.user-info__title {
+    font-size: 20px;
+}
+.user-info__title, .user-info__bio {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.user-info__stats {
+    list-style: none;
+    padding: 0;
+    flex: 1;
+    display: flex;
+}
+.user-info__stats a {
+    color: #000;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    text-align: center;
+}
+.user-info__stat {
+    flex: 1;
+}
+.user-info__stat p {
+    margin: 0;
+    white-space: nowrap;
+}
+.user-page{
+    margin: 10px;
+    background: lightgray;
+    padding: 30px
+}
+.user-info a{
+    color:white;
+    text-decoration: none;
+    padding: 20px 1px;
+    transition: all 0.7s;
+}
+.user-info a:hover{
+    color:crimson;
+    background: white;
+    text-decoration: none;
+}
